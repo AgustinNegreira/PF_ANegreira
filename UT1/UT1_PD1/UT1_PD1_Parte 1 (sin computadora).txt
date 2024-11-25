@@ -1,0 +1,33 @@
+UT1_PD1_Parte 1 (sin computadora)
+
+Ejercicio 1
+"
+No, yo pac.
+Vos zacata pac.
+Yo pac.
+
+"
+
+Ejercicio 2
+a) 
+La primer sentencia que se ejecuta es "sipo ("traqueteo", 13);" ya que se encuentra en el metodo main del programa.
+
+b)
+public class Zumbido {
+public static void desconcertar (String dirigible) {
+System.out.println (dirigible);                           4
+sipo ("ping", -5);                                        5
+}
+public static void sipo (String membrillo, int flag) {
+if (flag < 0) {
+System.out.println (membrillo + " sup");                  6
+} else {
+System.out.println ("ik");                                2
+desconcertar (membrillo);                                 3
+System.out.println ("muaa-ja-ja-ja");                     7
+}
+}
+public static void main (String[] args) {
+sipo ("traqueteo", 13);                                   
+}
+}

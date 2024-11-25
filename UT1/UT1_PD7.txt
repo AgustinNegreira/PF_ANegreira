@@ -1,0 +1,20 @@
+UT1_PD7
+
+Ejercicio 1.
+En Java (y en muchos otros lenguajes de programación como Python o JavaScript), cuando comparas cadenas de texto usando el operador ==, estás comparando las referencias de los objetos en memoria, no sus contenidos. Esto significa que s == "1000" verificará si s y "1000" apuntan exactamente al mismo objeto en memoria, lo cual es muy improbable en este caso, dado que s es una cadena construida dinámicamente mediante concatenación.
+
+Version corregida:
+String s = "1";
+while (!s.equals("1000")) {
+s += "0";
+}
+
+
+Ejercicio 2.
+Caso 1:
+Este código imprimirá "True".
+En Java, las cadenas definidas directamente como literales (por ejemplo, "Hola") son almacenadas en un "pool" de cadenas. Cuando defines s1 y s2 de esta manera, ambas apuntan al mismo objeto en la memoria porque son el mismo literal. Por lo tanto, la comparación s1 == s2 devuelve True porque ambas referencias apuntan al mismo lugar en la memoria​ (Oracle).
+
+Caso 2:
+Este código imprimirá "False".
+Aquí, aunque s1 y s2 contienen el mismo texto, s1 se crea con la palabra clave new, lo que hace que Java genere un nuevo objeto String en la memoria, diferente del que se encuentra en el pool de cadenas. Debido a que == compara referencias de objetos y no el contenido de las cadenas, s1 == s2 devolverá False porque las referencias no son iguales​ (Oracle)​.

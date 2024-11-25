@@ -1,0 +1,30 @@
+UT3_TA1_EJ2
+
+Lenguaje natural:
+Si el nuevo elemento es valido, este debera referenciar al primer elemento ya existente, y este nuevo elemento va a pasar a ser el primero.
+Caso especial: Si la lista esta vacia, el nuevo elemento va a referenciar a nulo.
+
+Precondiciones:
+- El nuevo elemento no debe ser nulo y debe ser del tipo correcto.
+- La etiqueta/clave del elemento debe ser valida.
+
+Postcondiciones:
+- Si la lista esta vacia antes de insertar, ahora la cantidad de elementos es 1.
+- La lista contendra un elemento mas.
+- El elemento insertado se encuentra en la lista.
+- El elemento se encuentra al principio de la lista (apunta al siguiente).
+
+Pseudocodigo:
+
+TListaInsertar(unElemento : tipoElemento)
+COM
+	Si vacia entonces
+		primero <- unElemento
+		unElemento.siguiente <- null
+	SiNo
+		unElemento.siguiente <- primero
+		primero <- unElemento
+	FinSi
+FIN
+
+

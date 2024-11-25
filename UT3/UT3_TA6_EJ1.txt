@@ -1,0 +1,23 @@
+UT3_TA6_EJ1
+
+1.
+
+Pseudocodigo:
+
+booleano controlCorchetes(de tipo lista de caracteres listaDeEntrada)
+
+COM
+	PARA CADA (caracter en listaDeEntrada)
+		Si (caracter = '{')
+			pila.push
+		SiNo
+			pila.pop
+		FinSi
+	FinPara
+	
+	Si (pila = vacia)
+		retornar VERDADERO
+	SiNo
+		retornar FALSO
+	FinSi
+FIN

@@ -1,0 +1,73 @@
+Diagnostico AED
+
+1) 
+a)
+public static double[] PromedioDeHoras(double[,] temp)
+    {
+        double[] horas = new double[24];
+        
+        for (int i = 0; i < 24; i++)
+        {
+            double suma = 0;
+            for (int j = 0; j < 7; j++)
+            {
+                suma += temp[i, j];
+            }
+            horas[i] = suma / 7;
+        }
+        
+        return horas;
+    }
+b)
+public static double[] PromedioDeDias(double[,] temp)
+    {
+        double[] dias = new double[7];
+        
+        for (int j = 0; j < 7; j++)
+        {
+            double suma = 0;
+            for (int i = 0; i < 24; i++)
+            {
+                suma += temp[i, j];
+            }
+            dias[j] = suma / 24;
+        }
+        
+        return dias;
+    }
+
+c)
+public static bool HayNegativos(double[,] temp)
+    {
+        for (int i = 0; i < 24; i++)
+        {
+            for (int j = 0; j < 7; j++)
+            {
+                if (temp[i, j] < 0)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+2)
+a) Sumatoria de I=1 hasta N de I
+b) public static double Sumatoria(int n)
+    {
+        int x = 0;
+        int i = 1;
+
+        while (i <= n)
+        {
+            x += i;
+            i += 1;
+        }
+        return x;
+    }
+c) public static double Gauss(int n)
+    {
+        return ((n*(n+1))/2);
+    }
+d) 500500

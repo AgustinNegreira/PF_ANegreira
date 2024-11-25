@@ -1,0 +1,13 @@
+Recursos en la web:
+
+Algorithm visualizer:
+https://algorithm-visualizer.org
+
+Quicksort:
+https://www.geeksforgeeks.org/quick-sort-algorithm/
+
+Counting sort:
+https://www.geeksforgeeks.org/counting-sort/
+
+Radix sort:
+https://www.geeksforgeeks.org/radix-sort/

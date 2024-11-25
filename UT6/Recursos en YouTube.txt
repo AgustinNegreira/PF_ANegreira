@@ -1,0 +1,7 @@
+Recursos en YouTube
+
+HashMap en Java:
+https://www.youtube.com/watch?v=H62Jfv1DJlU
+
+Tabla de hash - hashing:
+https://www.youtube.com/watch?v=9tZsDJ3JBUA

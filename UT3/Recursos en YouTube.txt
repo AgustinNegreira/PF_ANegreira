@@ -1,0 +1,10 @@
+Recursos en YouTube
+
+Linked List tutorial:
+https://www.youtube.com/watch?v=9q758AJ1nck
+
+Stack tutorial:
+https://www.youtube.com/watch?v=nsBxpVkPpYg
+
+Queue tutorial:
+https://www.youtube.com/watch?v=WSNHX1Qnjvg

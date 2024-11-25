@@ -1,0 +1,28 @@
+UT6_TA1
+
+EJERCICIO 2
+
+
+buscar(int unaClave) -> (int)
+
+COM
+	array -> arrayActual
+	contadorComparaciones -> 1
+	found -> false
+	h0 = hashElemento(unaClave)
+	
+	if (h0 = unaclave)
+		while(!found)
+			hi = (h0 + i) MOD N
+			contadorComparaciones++
+			if (hi = unaClave)
+				found = true
+			fin if
+		fin while
+	fin if
+	devolver contadorComparaciones
+FIN
+
+
+insertar(int unaClave) -> (int)
+

@@ -1,0 +1,37 @@
+UT1_TA3_EJ3
+
+- Obtener Líneas de un Archivo (obtenerLineas):
+
+Precondiciones:
+El archivo especificado debe existir y ser accesible en la ruta proporcionada.
+El archivo debe contener texto delimitado por líneas (por lo general, separadas por saltos de línea).
+Postcondiciones:
+Se retorna un vector de cadenas donde cada cadena corresponde a una línea del archivo.
+Se imprime la cantidad de líneas leídas.
+Si ocurre un error al leer el archivo (por ejemplo, si el archivo no existe o no se puede acceder), se lanza una excepción IOException.
+
+- Contar Palabras en un Vector de Líneas (cantPalabras):
+
+Precondiciones:
+El vector de líneas debe contener cadenas de texto que representen líneas de un archivo de texto.
+Cada cadena en el vector debe seguir las reglas definidas para la identificación de palabras (es decir, palabras separadas por espacios o signos de puntuación).
+Postcondiciones:
+Se retorna un entero que representa el número total de palabras válidas encontradas en todas las líneas del vector.
+No se modifican las líneas de texto originales en el vector.
+
+- Métodos de Manejo de Archivos Estándar de Java Utilizados:
+BufferedReader:
+
+Funcionalidad: Este es un lector de caracteres que lee texto de una secuencia de entrada de manera eficiente. Al usar BufferedReader, puedes leer una línea completa de texto con el método readLine(), lo cual es ideal para procesar archivos línea por línea.
+Uso en el Código: Se utiliza en el método obtenerLineas para leer cada línea del archivo de texto.
+
+FileReader:
+
+Funcionalidad: Es un lector de archivos que lee datos de un archivo de texto. Generalmente, se envuelve en un BufferedReader para mejorar la eficiencia de la lectura.
+
+
+Explicación de la Lógica: 
+
+Lectura de Archivos: El método obtenerLineas utiliza BufferedReader y FileReader para abrir un archivo y leer su contenido línea por línea. Cada línea leída se almacena en una lista que luego se convierte en un vector de cadenas (String[]).
+
+Conteo de Palabras: El método cantPalabras procesa cada línea del vector, utilizando el método contarPalabras para determinar cuántas palabras válidas hay en cada línea. Este método cuenta una palabra si contiene al menos una letra y no es solo un conjunto de signos de puntuación o espacios.

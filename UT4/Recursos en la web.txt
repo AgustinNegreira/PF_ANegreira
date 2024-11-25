@@ -1,0 +1,5 @@
+Recursos en la web:
+
+
+Visualizador de operaciones en estructuras de datos:
+https://visualgo.net/en/bst
