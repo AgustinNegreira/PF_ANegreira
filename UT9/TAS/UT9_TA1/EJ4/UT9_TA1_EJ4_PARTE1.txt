@@ -1,0 +1,51 @@
+UT9_TA1_EJ4_PARTE1
+
+1) ¿Cómo se genera un vector monótonamente ascendente?
+El vector monótonamente ascendente se genera en el método generarDatosAscendentes. Este método inicializa un arreglo de tamaño TAMANIO_MAX y asigna a cada posición un valor incremental, comenzando desde 0 hasta TAMANIO_MAX - 1.
+
+
+2) ¿Cómo se genera un vector monótonamente descendente?
+El vector monótonamente descendente se genera en el método generarDatosDescendentes. Este método inicializa un arreglo de tamaño TAMANIO_MAX y asigna a cada posición valores decrecientes, comenzando desde TAMANIO_MAX hasta 1.
+
+
+3) ¿Cómo se genera un vector con valores aleatorios? ¿Pueden existir claves repetidas?
+El vector con valores aleatorios se genera en el método generarDatosAleatorios. Este método utiliza un generador de números aleatorios (Random) para seleccionar índices donde colocar valores únicos del 0 al TAMANIO_MAX - 1. Utiliza un arreglo booleano datosUtilizados para asegurarse de que cada índice sea utilizado una sola vez.
+
+Conclusión: No pueden existir claves repetidas, ya que el programa asegura que cada valor se asigna a una posición única mediante el arreglo datosUtilizados.
+
+Orden del tiempo de ejecución:
+
+Generar los números aleatorios tiene un orden 𝑂(𝑛)
+O(n) porque cada iteración del bucle for recorre una posición.
+Sin embargo, la búsqueda del índice no utilizado puede costar hasta 𝑂(𝑛) en el peor caso, por lo que el tiempo total podría aproximarse a 𝑂(𝑛2) en escenarios desfavorables.
+
+
+
+4) ¿Cuántos elementos contiene el vector de datos generado? ¿Cómo se puede modificar esta clase para que la cantidad de elementos del vector sea parametrizable?
+El vector contiene exactamente TAMANIO_MAX elementos, definido como una constante estática de la clase.
+
+Modificación para parametrizar la cantidad de elementos:
+
+Reemplazar TAMANIO_MAX con una variable de instancia.
+Introducir un constructor para inicializar el tamaño del vector.
+
+
+5) ¿Cómo podemos verificar que un conjunto está ordenado? ¿Cuál sería el orden del tiempo de ejecución de un algoritmo que lo haga?
+Para verificar si un conjunto está ordenado:
+
+Ascendente: Comprobar que cada elemento es menor o igual al siguiente.
+Descendente: Comprobar que cada elemento es mayor o igual al siguiente.
+
+Algoritmo:
+
+public boolean estaOrdenado(int[] datos) {
+    for (int i = 0; i < datos.length - 1; i++) {
+        if (datos[i] > datos[i + 1]) {
+            return false; // No está ordenado ascendentemente
+        }
+    }
+    return true; // Está ordenado ascendentemente
+}
+Orden del tiempo de ejecución:
+
+El algoritmo tiene un costo de O(n), ya que realiza una única pasada por el vector para comparar los elementos consecutivos.

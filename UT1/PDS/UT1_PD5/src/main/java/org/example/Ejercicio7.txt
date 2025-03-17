@@ -1,0 +1,53 @@
+StringBuilder(): Crea un StringBuilder vacío con una capacidad inicial de 16 caracteres.
+StringBuilder sb = new StringBuilder();
+// Resultado: (vacío)
+
+StringBuilder(String str): Crea un StringBuilder que contiene la cadena str.
+StringBuilder sb = new StringBuilder("Hola Mundo");
+// Resultado: "Hola Mundo"
+
+StringBuilder(int capacity): Crea un StringBuilder con una capacidad inicial especificada por capacity.
+StringBuilder sb = new StringBuilder(50);
+// Resultado: (vacío, pero con capacidad para 50 caracteres)
+
+setLength(int newLength): Establece la longitud del StringBuilder a newLength. Si newLength es menor que la longitud actual, se trunca el contenido. Si es mayor, se rellena con caracteres '\0'.
+StringBuilder sb = new StringBuilder("Hola Mundo");
+sb.setLength(8);
+String result = sb.toString();
+// Resultado: "Hola Mun"
+
+ensureCapacity(int minimumCapacity): Asegura que el StringBuilder tenga al menos minimumCapacity de capacidad. Si la capacidad actual es menor, se aumenta.
+StringBuilder sb = new StringBuilder();
+sb.ensureCapacity(100);
+int result = sb.capacity();
+// Resultado: 100 (o más, dependiendo de la implementación y capacidad inicial)
+
+append(String str): Agrega la cadena str al final del StringBuilder.
+StringBuilder sb = new StringBuilder("Hola");
+sb.append(" Mundo");
+String result = sb.toString();
+// Resultado: "Hola Mundo"
+
+insert(int offset, String str): Inserta la cadena str en la posición offset.
+StringBuilder sb = new StringBuilder("Hola Mundo");
+sb.insert(5, "Java ");
+String result = sb.toString();
+// Resultado: "Hola Java Mundo"
+
+delete(int start, int end): Elimina el contenido del StringBuilder desde start hasta end (excluido).
+StringBuilder sb = new StringBuilder("Hola Mundo");
+sb.delete(4, 9);
+String result = sb.toString();
+// Resultado: "Hola do"
+
+deleteCharAt(int index): Elimina el carácter en la posición index.
+StringBuilder sb = new StringBuilder("Hola Mundo");
+sb.deleteCharAt(4);
+String result = sb.toString();
+// Resultado: "HolaMundo"
+
+reverse(): Invierte el contenido del StringBuilder.
+StringBuilder sb = new StringBuilder("Hola Mundo");
+sb.reverse();
+String result = sb.toString();
+// Resultado: "odnuM aloH"

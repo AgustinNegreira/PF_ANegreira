@@ -1,0 +1,3 @@
+UT9_PD3_EJ1
+
+El algoritmo de Quicksort mantiene como condición fundamental que, en todo momento durante su ejecución, cada elemento en la partición izquierda es menor o igual al pivote, y cada elemento en la partición derecha es mayor o igual al pivote. Esta propiedad garantiza que, al combinar las particiones de manera recursiva, el arreglo estará completamente ordenado.

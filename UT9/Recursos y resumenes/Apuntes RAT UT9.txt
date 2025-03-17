@@ -1,0 +1,52 @@
+Apuntes AED UT9
+
+- Un método de clasificación es estable cuando mantiene el 
+orden relativo de los elementos que tengan la misma clave.
+
+- Si las claves tienen ciertas propiedades, los métodos de
+clasificación de un conjunto de elementos pueden tener un
+orden del tiempo de ejecución lineal.
+
+- Los metodos de clasificacion llamados "directos" tienen
+como caracteristica que la cantidad de movimientos en
+general sera menor a la cantidad de comparaciones.
+
+HEAPSORT
+- Orden del tiempo de ejecución SIEMPRE es de O(n log(n)).
+
+RADIX
+- Dado un TipoClave constituído por k elementos f1, f2, ...,
+fk de tipos t1, t2, ..., tk, este algoritmo realiza una
+ordenación de todos los registros por BINSORT, tomando cada
+campo de la clave fk sucesivamente, y concatenando las urnas
+al final de cada iteración.
+
+QUICKSORT
+- La mejor estrategia de selección del pivote para este
+algoritmo sería seleccionar el elemento cuya clave es
+la mediana de un subconjunto compuesto por los primeros m
+elementos.
+- Al aplicar este algoritmo, la profundidad de la recursion
+puede ser, en el peor de los casos, proporcional a N.
+- Es un metodo de clasificacion por intercambio.
+
+INSERTION SORT
+- en la i-esima iteracion, coloca el i-esimo elemento del 
+conjunto de entrada en su posicion correspondiente al conjunto
+de i-elementos ya ordenados.
+
+BUCKETSORT/BINSORT
+- Este algoritmo aplicado a un vector con "n" elementos tiene 
+un orden "casi lineal".
+
+SELECTION
+- En la i-esima iteracion, encuentra el elemento que quedara 
+en la i-esima posicion el conjunto definitivo de salida.
+- Aplicado a un vector con n elementos tiene un orden del
+tiempo de ejecucion n al cuadrado en todos los cados
+
+
+SHELLSORT
+- Esta basado en repetir varias inserciones directas seguidas, 
+en una determinada secuencia de incrementos, finalizando en uno.
+

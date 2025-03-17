@@ -1,0 +1,12 @@
+UT1_PD4_Ejercicio 1
+
+a) La variable de clase es "public static int x = 7;"
+b) La variable de instancia es "public int y = 3;"
+
+La salida del codigo seria:
+
+a.y = 5
+b.y = 6
+a.x = 2
+b.x = 2
+IdentifyMyParts.x = 2

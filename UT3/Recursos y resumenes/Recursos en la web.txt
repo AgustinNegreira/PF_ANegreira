@@ -1,0 +1,7 @@
+Recursos en la web
+
+Linked list:
+https://www.geeksforgeeks.org/linked-list-data-structure/
+
+Stack:
+https://www.geeksforgeeks.org/stack-data-structure/?ref=header_outind

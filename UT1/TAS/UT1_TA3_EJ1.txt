@@ -1,0 +1,13 @@
+UT1_TA3_Ejercicio_1
+
+a)
+Precondición:
+Entrada válida: El método debe recibir una cadena de caracteres (String) que representa la frase de la cual se desea contar las palabras. Esta cadena puede contener caracteres alfabéticos, numéricos y otros caracteres no alfabéticos.
+Frase no nula: La cadena de entrada (frase) no debe ser null. Se asume que la cadena ha sido inicializada antes de ser pasada como argumento.
+
+Postcondición:
+Conteo correcto de palabras: El método devuelve un entero que representa la cantidad de palabras encontradas en la frase. Una palabra es una secuencia de caracteres que contiene al menos un carácter alfabético y está separada por espacios u otros caracteres no alfabéticos.
+Retorno de 0 si no hay palabras: Si la frase no contiene ninguna palabra (es decir, no contiene caracteres alfabéticos), el método devuelve 0.
+
+Explicacion:
+El objetivo del programa es contar la cantidad de palabras en una frase. Una palabra se define como una secuencia de caracteres que incluye al menos un carácter alfabético. Los espacios separan las palabras en la frase. El programa no puede utilizar la función split de Java para separar las palabras. En su lugar, analizará cada carácter de la frase para determinar si forma parte de una palabra y contará las palabras encontradas.

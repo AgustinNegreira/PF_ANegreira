@@ -1,0 +1,104 @@
+substring(int beginIndex): Devuelve una nueva cadena que es una subcadena de la cadena original, comenzando en el índice beginIndex hasta el final.
+String str = "Hola Mundo";
+String result = str.substring(5);
+// Resultado: "Mundo"
+
+substring(int beginIndex, int endIndex): Devuelve una nueva cadena que es una subcadena de la cadena original, comenzando en el índice beginIndex y terminando en el índice endIndex (excluido).
+String str = "Hola Mundo";
+String result = str.substring(0, 4);
+// Resultado: "Hola"
+
+split(String regex): Divide la cadena en partes usando el delimitador regex.
+String str = "Hola,Mundo,Java";
+String[] result = str.split(",");
+// Resultado: ["Hola", "Mundo", "Java"]
+
+split(String regex, int limit): Divide la cadena en partes usando el delimitador regex, con un límite máximo de limit partes.
+String str = "Hola,Mundo,Java";
+String[] result = str.split(",", 2);
+// Resultado: ["Hola", "Mundo,Java"]
+
+subSequence(int beginIndex, int endIndex): Devuelve una subsecuencia de la cadena original desde el índice beginIndex hasta endIndex (excluido).
+String str = "Hola Mundo";
+CharSequence result = str.subSequence(0, 4);
+// Resultado: "Hola"
+
+trim(): Elimina los espacios en blanco del principio y el final de la cadena.
+String str = "   Hola Mundo   ";
+String result = str.trim();
+// Resultado: "Hola Mundo"
+
+toLowerCase(): Convierte todos los caracteres de la cadena a minúsculas.
+String str = "Hola Mundo";
+String result = str.toLowerCase();
+// Resultado: "hola mundo"
+
+toUpperCase(): Convierte todos los caracteres de la cadena a mayúsculas.
+String str = "Hola Mundo";
+String result = str.toUpperCase();
+// Resultado: "HOLA MUNDO"
+
+indexOf(int ch): Devuelve el índice de la primera aparición del carácter ch.
+String str = "Hola Mundo";
+int result = str.indexOf('M');
+// Resultado: 5
+
+indexOf(String str): Devuelve el índice de la primera aparición de la subcadena str.
+String str = "Hola Mundo";
+int result = str.indexOf("Mundo");
+// Resultado: 5
+
+indexOf(int ch, int fromIndex): Devuelve el índice de la primera aparición del carácter ch a partir del índice fromIndex.
+String str = "Hola Mundo";
+int result = str.indexOf('o', 5);
+// Resultado: 7
+
+indexOf(String str, int fromIndex): Devuelve el índice de la primera aparición de la subcadena str a partir del índice fromIndex.
+String str = "Hola Mundo";
+int result = str.indexOf("o", 5);
+// Resultado: 7
+
+lastIndexOf(int ch): Devuelve el índice de la última aparición del carácter ch.
+String str = "Hola Mundo";
+int result = str.lastIndexOf('o');
+// Resultado: 7
+
+lastIndexOf(String str): Devuelve el índice de la última aparición de la subcadena str.
+String str = "Hola Mundo Mundo";
+int result = str.lastIndexOf("Mundo");
+// Resultado: 10
+
+lastIndexOf(int ch, int fromIndex): Devuelve el índice de la última aparición del carácter ch antes del índice fromIndex.
+String str = "Hola Mundo";
+int result = str.lastIndexOf('o', 5);
+// Resultado: 4
+
+lastIndexOf(String str, int fromIndex): Devuelve el índice de la última aparición de la subcadena str antes del índice fromIndex.
+String str = "Hola Mundo Mundo";
+int result = str.lastIndexOf("Mundo", 5);
+// Resultado: 5
+
+contains(CharSequence sequence): Devuelve true si la cadena contiene la secuencia de caracteres especificada.
+String str = "Hola Mundo";
+boolean result = str.contains("Mundo");
+// Resultado: true
+
+replace(char oldChar, char newChar): Devuelve una nueva cadena donde todas las apariciones del carácter oldChar son reemplazadas por newChar.
+String str = "Hola Mundo";
+String result = str.replace('o', 'a');
+// Resultado: "Hala Munda"
+
+replace(CharSequence target, CharSequence replacement): Devuelve una nueva cadena donde todas las apariciones de la subcadena target son reemplazadas por replacement.
+String str = "Hola Mundo";
+String result = str.replace("Mundo", "Java");
+// Resultado: "Hola Java"
+
+replaceAll(String regex, String replacement): Reemplaza todas las subcadenas que coinciden con la expresión regular regex con replacement.
+String str = "Hola Mundo 2024";
+String result = str.replaceAll("\\d+", "Year");
+// Resultado: "Hola Mundo Year"
+
+replaceFirst(String regex, String replacement): Reemplaza la primera subcadena que coincide con la expresión regular regex con replacement.
+String str = "Hola Mundo 2024 2025";
+String result = str.replaceFirst("\\d+", "Year");
+// Resultado: "Hola Mundo Year 2025"

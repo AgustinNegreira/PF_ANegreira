@@ -1,0 +1,28 @@
+UT3_PD1
+
+Ejercicio 1:
+Opcion a, ya que otroNodo referencia al nodo 1, significando que queda como anterior al mismo.
+
+Ejercicio 2:
+Opcion c, ya que se borra la referencia al nodo2 y lo recoge el garbage collector.
+
+Ejercicio 3:
+Opcion b, ya que nodo 1 apunta a otro nodo y otro nodo apunta a nodo 2.
+
+Ejercicio 4:
+Opcion d, el código intentará acceder a siguiente de un nodo null, lo que causará un error.
+
+Ejercicio 5:
+Opcion a, se recorre toda la lista para insertar otroNodo al final de la misma. Lo unico que faltaria es que otroNodo.siguiente hiciera referencia a null.
+
+Ejercicio 6:
+a) Dado que en la UCU una clase típica tiene entre 30 y 40 alumnos, definir un array de tamaño 40 es una solución pragmática. Aunque pueda parecer que se desperdicia un poco de memoria, esta es una decisión aceptable considerando los beneficios que ofrece el acceso directo por índice en un array. En comparación con una lista encadenada, donde cada nodo adicional implica un costo extra en memoria para almacenar los punteros, el array resulta ser más eficiente en este escenario específico. La cantidad de memoria desperdiciada es mínima y se justifica por la eficiencia en el acceso a los elementos.
+
+b) Al tratarse de un curso con hasta 40 estudiantes, la utilización de un array resulta ideal. La estructura permite acceder directamente a cualquier estudiante mediante su índice, lo que es crucial cuando se debe registrar la asistencia uno por uno. En un escenario donde cada clase implica marcar la asistencia para todos los alumnos, el acceso O(1) del array es significativamente más rápido que el O(n) que implicaría recorrer una lista encadenada. Aunque una lista encadenada podría parecer flexible en términos de manejo de memoria, el incremento en el costo de recursos al recorrerla para cada operación haría que su uso sea menos eficiente para este caso específico.
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+Ejercicio 8
+La capacidad inicial del sb es 42, ya que todos los StrinBuilder tienen 16 de capacidad inicial,
+y cuando es inicializado con una cadena de texto en el constructor, se suma la capacidad inicial
+al largo del string. 26 (largo del string) + 16 (capacidad inicial) = 42.
+
+Ejercicio 9
+a) 32
+b) 'e'
+c) hannah.charAt(15);
+
+Ejercicio 10
+La string es de largo 3 y el string es "car"
+
+Ejercicio 11
+Result es igual a "e 2am laste"

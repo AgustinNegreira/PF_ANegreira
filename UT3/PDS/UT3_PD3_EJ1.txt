@@ -1,0 +1,132 @@
+UT3_PD3_EJ1
+
+- Crear los Elementos y la Lista
+
+Lenguaje Natural:
+Inicializar una lista simplemente enlazada vacía donde se podrán almacenar nodos con datos específicos.
+
+Precondiciones:
+No se requiere ninguna condición previa.
+
+Postcondiciones:
+Se crea una lista vacía con su referencia inicial (cabeza) establecida a null.
+
+Pseudocódigo:
+
+inicializar_lista():
+    cabeza = null
+
+------------------------------------------------------------
+
+- Insertar un Elemento al Final de la Lista (Lista No Ordenada)
+
+Lenguaje Natural:
+Agregar un nuevo nodo con un dato específico al final de la lista simplemente enlazada.
+
+Precondiciones:
+La lista debe estar inicializada.
+El dato del nuevo elemento a insertar debe estar definido.
+
+Postcondiciones:
+Se añade un nuevo nodo al final de la lista.
+Si la lista estaba vacía, el nuevo nodo se convierte en la cabeza de la lista.
+
+Pseudocódigo:
+
+insertar_al_final(lista, dato):
+    nuevo_nodo = crear_nodo(dato)
+    nuevo_nodo.siguiente = null
+    
+    si lista.cabeza es null:
+        lista.cabeza = nuevo_nodo
+    sino:
+        actual = lista.cabeza
+        mientras actual.siguiente no es null:
+            actual = actual.siguiente
+        actual.siguiente = nuevo_nodo
+
+------------------------------------------------------------
+
+- Buscar un Elemento en la Lista
+
+Lenguaje Natural:
+Buscar un nodo que contenga un dato específico dentro de la lista simplemente enlazada y devolver su posición o indicar que no se encontró.
+
+Precondiciones:
+La lista debe estar inicializada.
+El dato a buscar debe estar definido.
+
+Postcondiciones:
+Si el dato se encuentra, se devuelve la posición (índice) del nodo.
+Si no se encuentra, se indica que el elemento no existe en la lista.
+
+Pseudocódigo:
+
+buscar_elemento(lista, dato_buscado):
+    actual = lista.cabeza
+    posicion = 0
+    
+    mientras actual no es null:
+        si actual.dato == dato_buscado:
+            devolver posicion
+        actual = actual.siguiente
+        posicion = posicion + 1
+    
+    devolver "Elemento no encontrado"
+
+------------------------------------------------------------
+
+- Listar (Imprimir) Todos los Elementos de la Lista
+
+Lenguaje Natural:
+Recorrer la lista simplemente enlazada y imprimir los datos de cada nodo en el orden en que aparecen.
+
+Precondiciones:
+La lista debe estar inicializada.
+
+Postcondiciones:
+Todos los datos almacenados en la lista son impresos secuencialmente.
+
+Pseudocódigo:
+
+imprimir_lista(lista):
+    actual = lista.cabeza
+    
+    mientras actual no es null:
+        imprimir actual.dato
+        actual = actual.siguiente
+
+------------------------------------------------------------
+
+- Eliminar un Elemento de la Lista Dada su Clave (Dato)
+
+Lenguaje Natural:
+Eliminar el nodo que contiene un dato específico de la lista simplemente enlazada, ajustando las referencias para mantener la integridad de la lista.
+
+Precondiciones:
+La lista debe estar inicializada.
+El dato del elemento a eliminar debe estar definido y existir en la lista.
+
+Postcondiciones:
+Si el elemento existe, se elimina de la lista.
+Las referencias de los nodos se ajustan para mantener la continuidad de la lista.
+Si el elemento no existe, la lista permanece sin cambios.
+
+Pseudocódigo:
+
+eliminar_elemento(lista, dato_eliminar):
+    actual = lista.cabeza
+    anterior = null
+    
+    mientras actual no es null:
+        si actual.dato == dato_eliminar:
+            si anterior es null:
+                lista.cabeza = actual.siguiente
+            sino:
+                anterior.siguiente = actual.siguiente
+            liberar actual
+            devolver "Elemento eliminado"
+        anterior = actual
+        actual = actual.siguiente
+    
+    devolver "Elemento no encontrado"

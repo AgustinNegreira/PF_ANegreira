@@ -1,0 +1,48 @@
+UT3_PD14
+
+Ejercicio 1: PoneEnCola
+Descripción: Esta operación agrega un elemento a la cola circular, avanzando de forma cíclica en el vector que la implementa. En caso de que la cola esté llena, no agrega el elemento.
+
+Precondiciones:
+La cola debe estar inicializada.
+El índice de inicio y final deben ser válidos (es decir, deben estar dentro del tamaño del vector).
+Postcondiciones:
+Si la cola no está llena, el elemento se agrega en la posición final.
+Si la cola estaba llena, no se agrega el elemento y se genera un mensaje de error o una indicación de que la cola está llena.
+
+Seudo:
+COM PoneEnCola(unElemento)
+    SI (final + 1) % tamaño = inicio 
+        entonces 
+            // La cola está llena
+            Imprimir "Error: La cola está llena"
+    sino
+        cola[final] ← unElemento
+        final ← (final + 1) % tamaño
+    finsi
+FIN
+
+
+Ejercicio 2: QuitaDeCola
+Descripción: Esta operación elimina y devuelve el elemento en la posición de inicio de la cola circular, avanzando de forma cíclica en el vector. En caso de que la cola esté vacía, no devuelve ningún elemento.
+
+Precondiciones:
+La cola debe estar inicializada.
+El índice de inicio y final deben ser válidos (es decir, deben estar dentro del tamaño del vector).
+Postcondiciones:
+Si la cola no está vacía, el primer elemento en la posición de inicio es eliminado y el índice inicio avanza al siguiente.
+Si la cola estaba vacía, no se elimina ningún elemento y se genera un mensaje de error o una indicación de que la cola está vacía.
+
+Seudo:
+COM QuitaDeCola()
+    SI inicio = final 
+        entonces 
+            // La cola está vacía
+            Imprimir "Error: La cola está vacía"
+            devolver null
+    sino
+        elemento ← cola[inicio]
+        inicio ← (inicio + 1) % tamaño
+        devolver elemento
+    finsi
+FIN

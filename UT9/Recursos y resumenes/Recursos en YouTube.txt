@@ -1,0 +1,13 @@
+Recursos en YouTube
+
+Quicksort explicación:
+https://www.youtube.com/watch?v=7SzQrBVXXRU&list=PL_XEHkCGqCRd39Om319jM9K04a41q-ndQ
+
+Shellsort explicación (tutorial elegante):
+https://www.youtube.com/watch?v=N69WLyKphyo
+
+Insertion Sort en Java 
+https://www.youtube.com/watch?v=0lOnnd50cGI
+
+Radix explicacion completa y comparacion con Insertion Sort y Pigeonhole Sort
+https://www.youtube.com/watch?v=mVRHvZF8xtg

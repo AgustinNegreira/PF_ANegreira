@@ -1,0 +1,169 @@
+CODIGO;APELLIDO;APESEGUNDO;NOMBRE;NOMBRE-SEGUNDO;TIPO - DOC;NUM DOCUMENTO;LUGAR - SS - CAU
+1910;MOREIRA                  ;LACERDA                  ;SUSANA                   ;LUCY                     ;CI;4108177;CAZ1
+1938;CUNEO                    ;OLINISKY                 ;NELSON                   ;DANIEL                   ;CI;1805805;DIV-EJERCITO-1
+1596;TABORDA                  ;FLORES                   ;ADRIAN                   ;JORGE                    ;CI;2968433;CAZ1
+1779;GARCIA                   ;RIGOLI                   ;CECILIA                  ;BEATRIZ                  ;CI;1881289;CAZ2
+2157;ALEMAN                   ;AMEIGEIRAS               ;RODRIGO                  ;IGNACIO                  ;CI;2528135;ServSanEjercito
+1951;FERRARO                  ;NUNEZ                    ;VERONICA                 ;                         ;CI;1805428;SSE.SERV-SAN-EJER
+1990;PICART                   ;LAURENZ                  ;ALEJANDRO                ;MARIO                    ;CI;3671769;BAT INF 9
+2423;SANIBO                   ;GINZO                    ;SAMARA                   ;                         ;CI;1166057;MDN
+2203;REY                      ;FONTES                   ;SILENA                   ;ELISA                    ;CI;3683745;GRP.ART.3
+2224;RIANI                    ;VARELA                   ;VENANCIO                 ;OCTAVIO                  ;CI;3059179;REG.CAB.10
+2313;GENTA                    ;MERNIS                   ;CARLOS                   ;AGUSTIN                  ;CI;2905830;CAZ1
+2577;DE LOS SANTOS            ;ROSSO                    ;ANDREA                   ;                         ;CI;1852078;CAZ1
+2254;HATCHONDO                ;COUTURE                  ;MARTA                    ;                         ;CI;3100630;CALEN
+2266;IRIGOIN                  ;COSTA                    ;JAVIER                   ;                         ;CI;3002559;Reg.C.Nº3
+2290;DALMAS                   ;JACOBSON                 ;SUSANA                   ;MABEL                    ;CI;2812686;CAZ1
+2496;EUGUI                    ;DE LEON                  ;MARIA                    ;DEL ROSARIO              ;CI;3673442;CAZ1
+2499;DUHALDE                  ;DA SILVA                 ;CAROLINA                 ;                         ;CI;3078419;CAZ1
+2525;TARIGO                   ;PIERONI                  ;MARIA                    ;MELINA                   ;CI;4211989;BAT-ING-COMB-2
+2733;VIETTRO                  ;RAMIREZ                  ;SANDRA                   ;LORENA                   ;CI;4094557;SSE.SERV-SAN-EJER
+2747;FORNOS                   ;SIENRA                   ;GERMAN                   ;RAUL                     ;CI;3231645;BAT.ING.COMB.1
+2755;GARCIA                   ;LOLO                     ;SANDRA                   ;MONICA                   ;CI;3148263;IGM
+2432;VAUCHER                  ;RIVERO                   ;ANDREA                   ;                         ;CI;3656258;SANAV
+2477;GINELLA                  ;COPELLO                  ;MARIA                    ;MERCEDES                 ;CI;1966516;IMES
+2781;CARDOZO                  ;MEDRANO                  ;MARIA                    ;NATALIA                  ;CI;4007075;BAT INF 9
+2785;MIERES                   ;GARCIA                   ;ANA                      ;ELENA                    ;CI;3105113;SANAV
+2769;ABBADIE                  ;FERREIRA                 ;GERARDO                  ;                         ;CI;4001694;SIE INT.EJER
+2811;CORDOBA                  ;SCHUNK                   ;MARIA                    ;CAROLINA                 ;CI;2770551;BAT.INF.7
+2616;MIRANDA                  ;SINISCALCHI              ;NATALIA                  ;                         ;CI;3349651;SANAV
+2629;SEOANE                   ;ETCHEGARAY               ;OSCAR                    ;                         ;CI;3288056;CAZ1
+2635;QUINTANA                 ;MATHIEU                  ;MARCELA                  ;                         ;CI;2685194;SANAV
+2643;BIDEGAIN                 ;GOTTERO                  ;MARIA                    ;CECILIA                  ;CI;3433492;B.ING.CONST.5
+2644;MESA                     ;SOSA                     ;MARCELO                  ;                         ;CI;4017326;B.ING.CONST.5
+2645;LIGUERA                  ;DE LEON                  ;RAFAEL                   ;                         ;CI;2796719;REG-CAB-BLIND-2
+2648;MENDEZ                   ;GARCIA                   ;PATRICIA                 ;NOEL                     ;CI;3669525;B.ING.CONST.5
+2831;GONCALVEZ                ;MARTINEZ                 ;MARIA                    ;MAGDALENA                ;CI;2870533;CAZ3
+2814;DAVERI                   ;BRUSCHI                  ;MARIA                    ;LILIANA                  ;CI;4311095;BAT INF MEC 4
+2823;AURRECOCHEA              ;CAMEJO                   ;LUIS                     ;FABIAN                   ;CI;3018845;GRP.ART.5
+2966;MIÑO                     ;PEREZ                    ;DIANA                    ;ANDREA                   ;CI;4082835;BAT-ING-COMB-6
+2847;VILLANUEVA               ;ABREO                    ;TOMAS                    ;ALFREDO                  ;CI;3675608;GRP.ART.4
+3032;LOCATELLI                ;LIESEGANG                ;JORGE                    ;ANDRES                   ;CI;3676668;SANAV
+3098;PEREZ                    ;PEÑA                     ;JAVIER                   ;EDUARDO                  ;CI;1830134;ESCUELA MILITAR
+2870;AYALA                    ;SOSA                     ;ANA                      ;CRISTINA                 ;CI;3639969;SANAV
+2930;JOHANSSON                ;ALCEIBAR                 ;ERIKA                    ;GOTA                     ;CI;2835231;CAZ1
+2941;RODRIGUEZ                ;SCORZIELLO               ;MARIA                    ;JESUS                    ;CI;2720871;BRIG-COM-1
+2961;VILLAFAN                 ;ALCOBA                   ;LETICIA                  ;                         ;CI;2799548;ESCAERO
+2881;CARRERA                  ;CHOUHY                   ;SYLVIA                   ;MARIA                    ;CI;3358130;REG.CAB.MEC4
+2905;ROCCA                    ;MIER                     ;ANDREA                   ;FABIANA                  ;CI;3430011;ServSanEjercito
+3027;DE LA VEGA               ;LUCHI                    ;LUCIA                    ;MARIA                    ;CI;3415593;IGM
+3073;BONINO                   ;YANSENS                  ;PATRICIA                 ;ANDREA                   ;CI;4215504;GRP.ESC.MEC.1
+3087;CORREA                   ;DELGADO                  ;PATRICIA                 ;ETHEL                    ;CI;1845097;REG-CAB-1
+3093;DE VARGAS                ;MORAES                   ;MARIA                    ;ALEJANDRA                ;CI;3917889;Reg.C.Nº3
+3125;COITIÑO                  ;PICANZO                  ;SERGIO                   ;ITAMAR                   ;CI;4111861;SANAV
+3121;THEODOSOPOULOS           ;DE ANGELI                ;VERONICA                 ;                         ;CI;3604574;REG-CAB-1
+3036;OLIVERA                  ;GARCIA                   ;ANA                      ;PAULA                    ;CI;3488022;REG.CAB.8
+3042;LEITES                   ;SANTANA                  ;MARIA                    ;ANGELICA                 ;CI;2660285;REG.CAB.8
+3118;LORENTE                  ;COPPOLA                  ;MARIA                    ;FERNANDA                 ;CI;3063310;BAT.INF.PARAC.14
+3021;GARCIA                   ;ACUÑA                    ;MARIA                    ;DEL LUJAN                ;CI;3596810;CAZ1
+3170;CASANOVA                 ;TORRADO                  ;JUAN                     ;                         ;CI;4151696;CAZ3
+2049;LLAMBI                   ;SUPINO                   ;MARIA                    ;LAURA                    ;CI;1990471;CAZ1
+2275;GARCIA                   ;REY                      ;FABIAN                   ;FERNANDO                 ;CI;1765423;SANAV
+3211;RAMIREZ                  ;DOMINGUEZ                ;ANA                      ;CECILIA                  ;CI;4074599;SMA
+3199;FERREIRA                 ;PINA                     ;ANDRES                   ;                         ;CI;3780692;REG.CAB.7
+3223;VEGA                     ;FERNANDEZ                ;PATRICIA                 ;MIREL                    ;CI;4384995;BAT.INF.MEC.12
+3111;PIÑEYRUA                 ;CLAVIJO                  ;MARIA                    ;NOEL                     ;CI;3935520;ESCUELA-MILITAR
+3112;BENTANCOR                ;ALVES                    ;PATRICIA                 ;ANDREA                   ;CI;1903535;CAZ1
+3154;CURI                     ;LEHMANN                  ;MARIA                    ;LAURA                    ;CI;3239300;CAZ1
+3176;ESTELLANO                ;SASTRE                   ;MARIA                    ;VICTORIA                 ;CI;3088810;IMES
+3232;DRAGONETTI               ;D'APONTE                 ;ALDO                     ;ANTONIO                  ;CI;1253827;BRIG-ING-1
+3302;GUERRA                   ;MENDEZ                   ;LAURA                    ;ELENA                    ;CI;4098240;CAZ2
+3216;SCHIAVONE                ;CHAVEZ                   ;LEONARDO                 ;RAFAEL                   ;CI;3621246;SANAV
+3252;GAVILAN                  ;PAMPILLON                ;GABRIEL                  ;ALEJANDRO                ;CI;3532395;BAT INF MEC 4
+3253;GUIGOU                   ;ARENAS                   ;CECILIA                  ;ELIZABETH                ;CI;3179751;BAT INF MEC 4
+3309;BARLA                    ;GIL                      ;CARMEN                   ;NATALIA                  ;CI;3885233;BAT.INF-MEC-2
+3318;BOVIO                    ;CALTIERI                 ;FLAVIO                   ;ANDRES                   ;CI;4257436;BAT-INF-BLIN-13
+3153;GOMEZ                    ;CORRALES                 ;FLAVIA                   ;PANCRACIA                ;CI;3067997;SANAV
+3298;GONZALEZ                 ;MARQUEZ                  ;DIEGO                    ;IGNACIO                  ;CI;4089852;BAT.INF-MEC-3
+3459;BARREDO                  ;SANCHEZ                  ;CAROLINA                 ;                         ;CI;3886404;SANAV
+3501;DA ROSA                  ;BISIO                    ;ALEJANDRO                ;                         ;CI;3048420;GRP.ART.ANT.1
+3399;GOYCOECHEA               ;GONZALEZ                 ;MAITE                    ;VIRGINIA                 ;CI;4198766;BRIG-COM-1
+3434;BRUM                     ;ELISSALDE                ;CAROLINA                 ;                         ;CI;3197704;SANAV
+3426;RUBBO                    ;REBELLATO                ;GIULIANO                 ;                         ;CI;4010687;SANAV
+3453;DIAZ                     ;ALZAMENDI                ;NOELIA                   ;TULIA                    ;CI;3881997;CAZ3
+3490;LOUREIRO                 ;SUAREZ                   ;JHONATAN                 ;LEE                      ;CI;3885443;BAT.INF-MEC-2
+3413;DEL CASTILLO             ;ARROQUI                  ;MARIA                    ;ZOE                      ;CI;3254105;GRP.ESC.MEC.1
+3427;VARON                    ;SLONIMCZYK               ;LUISA                    ;LORENA                   ;CI;3199518;LICEO MILITAR G.ARTIGAS
+3495;SISTO                    ;FERRA                    ;AGUSTIN                  ;JUAN                     ;CI;3350980;CAZ3
+3448;FRIPP                    ;LIESEGANG                ;MARIANA                  ;                         ;CI;4517446;SANAV
+3511;GUTIERREZ                ;MARTINS                  ;VIVIANA                  ;RUTH                     ;CI;4307233;IMES
+3405;RODRIGUEZ                ;                         ;VERONICA                 ;                         ;CI;3291351;REG.CAB.9
+3583;CIRULLO                  ;POZZI                    ;FELIPE                   ;                         ;CI;3970581;SANAV
+3581;TAÑO                     ;THOMAS                   ;EMILIANO                 ;                         ;CI;4655104;BAT.INF.1
+3604;DELLA SANTA              ;TREMEZANA                ;MARIA                    ;VALENTINA                ;CI;4314688;SANAV
+3535;PEREZ                    ;OLIVERA                  ;PABLO                    ;RAUL                     ;CI;4174755;SEAPE-PARQ-EJER
+3518;ACQUISTAPACE             ;PERONI                   ;FEDERICO                 ;ANDRES                   ;CI;4613878;SANAV
+3603;AGOGLIA                  ;ORTEGA DEL RIO           ;MATIAS                   ;JHONATAN                 ;CI;4673578;SANAV
+3641;BROZIA                   ;COIROLO                  ;MARIELLA                 ;SUSANA                   ;CI;3624633;BAT.ING.COMB.4
+3626;PEREIRA                  ;BAUTISTA                 ;ANDREA                   ;KARINA                   ;CI;3362853;REG.CAB.10
+3668;FLORES                   ;FERNANDEZ                ;OLGA                     ;CAROLINA                 ;CI;4700616;GRP.ART.5
+3585;NUÑEZ                    ;PINTO                    ;HUGO                     ;ANDRES                   ;CI;3492120;BAT.ING.COMB.3
+3586;GARCIA                   ;SAGARDOY                 ;LILA                     ;VIRGINIA                 ;CI;3370388;REG.CAB.5
+3588;HERNANDEZ                ;VALIENTE                 ;MARIA                    ;NATALIA                  ;CI;4574768;CAZ1
+3592;CORREA                   ;CASTRO                   ;JUAN                     ;PABLO                    ;CI;4104376;B.ING.CONST.5
+3767;BAGNASCO                 ;NICOLOFF                 ;VALERIA                  ;ALEJANDRA                ;CI;3468952;BAT INF MEC 4
+3833;ROMPANI                  ;JURADO                   ;JUAN                     ;CARLOS                   ;CI;3078059;BAT.INF.PARAC.14
+3843;CURBELO                  ;ETCHECHURI               ;MARIA                    ;VICTORIA                 ;CI;4394725;GRUP-ART-2
+3848;DOS SANTOS               ;TORIBIO                  ;EMILIANO                 ;                         ;CI;4117112;SANAV
+3747;LOZANO                   ;LARROSA                  ;SOLANA                   ;                         ;CI;3197471;SANAV
+3761;MARTINO                  ;MESA                     ;VIVIANA                  ;                         ;CI;4609074;SANAV
+3807;PUCHIELE                 ;ROMERO                   ;ANDRES                   ;                         ;CI;4715850;BAT.ING.COMB.1
+3674;TRIVEL                   ;ESCOBAR                  ;SILVINA                  ;                         ;CI;4547223;BAT.INF.1
+3841;ALMEIDA                  ;PAOLINI                  ;MARCOS                   ;                         ;CI;4710007;CAZ3
+3799;BROCCHI                  ;LOPEZ                    ;SILVANA                  ;LETICIA                  ;CI;4512889;REG.CAB.MEC6
+3715;DAVILA                   ;GUIMARAENS               ;JOAQUIN                  ;DANIEL                   ;CI;3997497;EBU-ESC-BELLA-UNION
+3745;MORATORIO                ;ANICHINI                 ;IGNACIO                  ;                         ;CI;4737477;SANAV
+3777;GRAÑA                    ;COLLETTE                 ;MARIA                    ;ELENA                    ;CI;2907188;BAT INF MEC 4
+3770;POLLIFRONI               ;ALMADA                   ;MARTIN                   ;EDUARDO                  ;CI;2906240;BAT INF MEC 4
+3828;AVIAGA                   ;MALDONADO                ;VIVIANA                  ;MARIEL                   ;CI;4177769;BAT.INF.11
+3780;ALVAREZ                  ;ARRIVILLAGA              ;GIMENA                   ;ISABEL                   ;CI;3716208;BAT INF MEC 4
+3903;CONTI                    ;RODRIGUEZ DAVILA         ;CARLOS                   ;ANDRES                   ;CI;4852084;CAZ1
+3937;MARTINEZ                 ;MIRANDA                  ;ROSINA                   ;DANIELA                  ;CI;4714820;CAZ2
+3884;SANSBERRO                ;CRIADO                   ;EMILIANO                 ;                         ;CI;4901784;SIE INT.EJER
+3908;LEUNDA                   ;LOPEZ                    ;PABLO                    ;MARTIN                   ;CI;4797809;CAZ2
+3932;SUAREZ                   ;MELO                     ;CLAUDIA                  ;LORENA                   ;CI;4251617;SANAV
+3939;BRUN                     ;RAMOS                    ;LAURA                    ;VIRGINIA                 ;CI;4591634;BAT.INF.MEC.10
+3893;NUÑEZ                    ;URRETA                   ;LOURDES                  ;ISABEL                   ;CI;4286346;GRUP-ART-2
+3916;OLIVERA                  ;HUELMO                   ;GIOVANNA                 ;ELIZABETH                ;CI;4554300;BRIG-ING-1
+4044;MONILLOR                 ;RAMOS                    ;ENRIQUE                  ;                         ;CI;4770588;SANAV
+4097;PERDOMO                  ;UMPIERRE                 ;MONICA                   ;ELIZABETH                ;CI;4509552;CAZ4
+4098;RIBERO                   ;ORTISI                   ;VIRGINIA                 ;                         ;CI;4917668;CAZ4
+4104;BLANCO                   ;RODRIGUEZ                ;JORGE                    ;OVIDIO                   ;CI;3109765;BAT.INF.7
+4093;MOTTA                    ;ITTUSACA                 ;ELTHON                   ;ROLANDO                  ;CI;4464055;BAT-ING-COMB-2
+4032;RODRIGUEZ                ;COR                      ;MERY                     ;SOLANG                   ;CI;4566194;CAZ1-3
+3950;TORRAZZA                 ;CARRIQUIRY               ;JUAN                     ;MANUEL                   ;CI;4760982;GRP.ART.ANT.1
+4108;MOTTA                    ;LOPEZ                    ;MARCOS                   ;NERY                     ;CI;3394074;CAZ4
+3993;SOUZA                    ;NAVA                     ;MARCELO                  ;                         ;CI;4478338;SERV-SANIT-EJERCITO
+4043;LABARTHE                 ;PITETTA                  ;PABLO                    ;AGUSTIN                  ;CI;4595991;SANAV
+4075;CORREA                   ;GARCIA                   ;KARINA                   ;SOFIA                    ;CI;4582751;CAZ1
+4077;ZUASNABAR                ;VOLANTE                  ;MARIA                    ;INES                     ;CI;3655374;GRP.ART.4
+3945;ARISTOV                  ;MARQUEZ                  ;MARIA                    ;PAULA                    ;CI;4463601;SANAV
+4085;CABO                     ;CEDRES                   ;ELIZA                    ;MARICEL                  ;CI;4704381;BN.INF.6
+4081;IBARRA                   ;PIANZOLA                 ;ELOISA                   ;                         ;CI;4394211;BN.INF.6
+4120;CASABALLE                ;CHUMINO                  ;JOSE                     ;PEDRO                    ;CI;3890808;BAT-ING-COMB-2
+3951;ROMERO                   ;RODRIGUEZ                ;CRISTIAN                 ;MARCELO                  ;CI;4492457;REG.CAB.MEC6
+3988;CASTRO                   ;PEREZ                    ;ENRIQUE                  ;MATIAS                   ;CI;4883274;ESMADE
+4076;LUZARDO                  ;RODRIGUEZ                ;DIANA                    ;MARISEL                  ;CI;5041274;CAZ1
+4063;TRENTINI                 ;MONZA                    ;ANNASOFIA                ;                         ;CI;4580114;CAZ1
+4115;ALONSO                   ;BODEANT                  ;CARMELO                  ;MARIA                    ;CI;3594130;BAT INF 8
+4160;SILVA                    ;CATALDO                  ;MAURICIO                 ;                         ;CI;3745436;CAZ1 Y 3
+4100;BARAIBAR                 ;CUEBAS                   ;MARIA                    ;SOFIA                    ;CI;4164688;CAZ4
+4070;CONTRERAS                ;BORBA                    ;CAROLINA                 ;                         ;CI;5007636;CAZ2
+4087;CARABAJAL                ;MARQUEZ                  ;NESTOR                   ;RICARDO                  ;CI;3813939;BAT-INF-BLIN-13
+4088;LOPEZ                    ;DA SILVA                 ;PABLO                    ;IGNACIO                  ;CI;4349551;REG.CAB.9
+4091;LAPREBENDERE             ;HARO                     ;CARLOS                   ;ANDRES                   ;CI;4159789;BAT.ING.COMB.3
+4128;ROSAS                    ;RODRIGUEZ                ;MARIA                    ;FERNANDA                 ;CI;4227256;REG.CAB.MEC4
+4011;RODRIGUEZ                ;ORNOZ                    ;MAURICIO                 ;                         ;CI;3910245;BAT.INF.MEC.12
+4065;BOVEDA                   ;BAILLO                   ;LORENA                   ;RAQUEL                   ;CI;5141525;CAZ1
+4040;MELGAREJO                ;BRITOS                   ;MARIA                    ;GEORGINA                 ;CI;3321859;CAZ2
+4095;FLAQUER                  ;LUENGO                   ;IGNACIO                  ;                         ;CI;4724278;BAT-ING-COMB-2
+4096;RISSO                    ;OLIVERI                  ;ESTEBAN                  ;GABRIEL                  ;CI;2692370;BAT-ING-COMB-2
+3999;GORRIA                   ;BONORA                   ;FEDERICO                 ;GASTON                   ;CI;4617636;REG.CAB.MEC4
+4101;MARTINEZ                 ;OXLEY                    ;HENRY                    ;DANIEL                   ;CI;4732178;BAT.INF.MEC.10
+4069;LAMBRUSCHINI             ;ALONSO                   ;CAMILA                   ;VALENTINA                ;CI;4753404;CAZ2
+4024;TORRADO                  ;UVIÑA                    ;VERONICA                 ;                         ;CI;4255694;GRP.ART.1
+3984;DELGADO                  ;DIAZ                     ;RAMIRO                   ;NESTOR                   ;CI;4734807;BAT.INF.11
+4036;PEREZ                    ;CASTRO                   ;VIVIANA                  ;JENNIFER                 ;CI;1917252;ESMADE
+4039;GARCIA                   ;RIOS                     ;MARIA                    ;VICTORIA                 ;CI;5133536;REG.CAB.MEC4
+4041;BALOSTRO                 ;GONZALEZ                 ;LUIS                     ;ALBERTO                  ;CI;4444394;BAT.INF-MEC-3
+4106;DELEON                   ;VALENZUELA               ;ELIZABETH                ;DAHIANA                  ;CI;3889530;CAZ4

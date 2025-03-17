@@ -1,0 +1,19 @@
+insertarPalabra (String palabra, String paginas)
+
+COMIENZO
+
+nodo -> raizTrie
+
+ParaCada caracter en palabra 
+
+	indice -> obtenerIndice(caracter)
+	Si nodo.hijos[indice] es nulo
+		nodo.hijos[indice] = NuevoNodo
+	FinSi
+	nodo = nodo.hijos[indice]
+
+Fin ParaCada
+
+nodo.paginas = paginas
+
+FIN

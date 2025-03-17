@@ -1,0 +1,20 @@
+1, Urraca
+2, Cerdo
+3, Mosca
+4, Gato
+5, Perezoso
+6, Loro
+7, Babosa
+8, Lobo
+9, Armadillo
+10, Oveja
+11, Cisne
+12, Pavo
+13, Alpaca
+14, Jirafa
+15, Gallo
+16, Serpiente
+17, Molusco
+18, Tigre
+19, Periquito
+20 todoo el texto libre que quiera poner

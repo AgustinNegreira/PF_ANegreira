@@ -1,0 +1,14 @@
+UT3_TA9_EJ1 Operaciones de listas
+
+Diferentes comportamientos:
+A) Quitar un elemento y dejarlo disponible y dejarlo disponible para su posterior utilizacion.
+
+Entra una clave de tipo Comparable, sale un booleano y el elemento en cuestion.
+
+Cuando elimino un elemento (2) se elimina la referencia del elemento anterior (1) hacia el, pero no la referencia de el hacia el siguiente (3). O sea que deberiamos eliminar la referencia antigua (de 2 a 3), referenciandolo a null para evitar problemas si lo utilizo en otra lista o en otro lugar de la lista nuevamente. Tambien la referencia del anterior (1) pasa a referenciar al siguiente del que elimine (3).
+
+B) Quitar un elemento y destruirlo.
+
+Entra una clave y sale un booleano diciendo si lo encontro o no.
+
+No me importan las referencias ya que voy a eliminar el elemento (2) y no lo voy a utilizar nuevamente. Lo unico que se debe tener en cuenta es que el anterior al eliminado (1) pasa a referenciar al siguiente del eliminado (3).

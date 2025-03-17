@@ -1,0 +1,12 @@
+UT8_TA3_EJ2
+
+Lenguaje natural:
+	Este algoritmo tomara como base un vertice a partir del cual comenzara a recorrer el grafo. Inicialmente agrega el primer vertice a una variable que la llamaremos "X" luego en una cola iremos agregando cada uno de los vertices de adyacencia que tenga el vertice X. Una vez tengamos todos los vertices de adyacencia agregados en la cola, asignaremos el primer vertice de la misma a la variable X y la eliminaremos de la cola. Comenzaremos con el proceso de buscar vertices de adyacencia hasta haber agregado todos al grafo, este proceso lo reiteraremos en cada uno de los vertices de adyacencia de los vertices que tomen el lugar de X.
+	
+Precondiciones:
+	Debe haber al menos un nodo en el grafo
+	
+Postcondiciones:
+	El algoritmo devolvera una lista con el orden en el que fue agregado cada nodo.
+	No habran vertices repetidos
+	Deben estar en la lista todos los nodos pertenecientes al grafo.

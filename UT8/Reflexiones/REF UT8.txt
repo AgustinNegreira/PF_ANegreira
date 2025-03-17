@@ -1,0 +1,7 @@
+REF UT8
+
+En esta unidad, el objetivo fue comprender y aplicar grafos no dirigidos para resolver problemas prácticos, como el diseño de redes y rutas logísticas, teniendo en cuenta tanto el rendimiento como el consumo de recursos. A partir de las lecturas asignadas, como el texto de Aho, Hopcroft y Ullman y "The Algorithm Design Manual" de Skiena, construí una base teórica sólida que me permitió abordar estos problemas de forma crítica y elegir el modelo más eficiente en cada situación.
+
+Considero que alcancé los objetivos propuestos, con evidencia en las implementaciones prácticas de algoritmos como Prim y búsquedas en profundidad y amplitud, que apliqué en ejercicios concretos. La práctica con las API de colecciones de Java resultó especialmente útil para manejar estructuras de datos complejas y desarrollar programas que no solo resuelvan un problema, sino que también cumplan con estándares de calidad en ingeniería de software.
+
+Este aprendizaje fue relevante porque me permitió conectar teoría con aplicaciones reales, mejorando mi habilidad para diseñar soluciones eficientes y de bajo costo. La experiencia también me llevó a reflexionar sobre el impacto de cada decisión técnica en términos de rendimiento, lo cual no solo fortaleció mi capacidad técnica, sino también mi enfoque crítico frente a problemas complejos.

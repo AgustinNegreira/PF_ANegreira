@@ -1,0 +1,71 @@
+TA1_EJ2.2
+
+Comienzo
+
+Desde k = t hasta 1 hacer
+	h  Inc[k]
+		Desde i = 1 + h hasta N hacer
+			Aux  V[i]
+			j = i - h
+			mientras j > 0 y Aux.clave < V[j].clave hacer
+				V[j+h]  V[j]
+				j  j - h
+			fin mientras
+			V[j+h]  Aux
+		fin desde
+fin desde
+
+Fin
+
+
+El análisis del tiempo de ejecución del algoritmo **Shellsort** en notación Big-O depende en gran medida de la **secuencia de incrementos** utilizada (representada por `Inc[k]` en el pseudocódigo). A continuación, te detallo cómo analizar el algoritmo:
+
+---
+
+### **Análisis del tiempo de ejecución**
+
+1. **Bucle externo (`k = t hasta 1`)**:
+   Este bucle recorre la secuencia de incrementos. Si la secuencia tiene \( t \) elementos, este bucle itera \( t \) veces.
+
+2. **Bucle interno (`i = 1 + h hasta N`)**:
+   En cada iteración del bucle externo, se realiza un recorrido parcial del arreglo en incrementos de tamaño \( h = \text{Inc}[k] \). Esto significa que cada paso del bucle interno depende de cuántos elementos hay en ese subintervalo.
+
+3. **Bucle mientras (`mientras j > 0 y Aux.clave < V[j].clave`)**:
+   Este bucle realiza una especie de inserción directa para elementos separados por \( h \). El número de iteraciones depende de cuántos elementos están desordenados dentro del subintervalo definido por \( h \).
+
+---
+
+### **Coste del algoritmo**
+El coste total del algoritmo es la suma del coste de los bucles anidados:
+
+#### Caso general:
+Para un \( N \)-elementos:
+1. El coste de **bucle externo** es \( t \), el número de incrementos.
+2. En cada iteración del bucle interno (con \( h \)), el coste del **bucle mientras** depende de cuántas comparaciones e intercambios se realizan. Esto puede variar ampliamente.
+
+---
+
+### **Dependencia de la secuencia de incrementos**
+El rendimiento de **Shellsort** está fuertemente influenciado por la secuencia \( h \). Algunas secuencias comunes y su tiempo en el peor caso:
+
+1. **Incrementos de Shell (\( h_k = N/2, N/4, \dots, 1 \))**:
+   - Peor caso: \( O(N^2) \)
+   - Los incrementos no son óptimos, y el rendimiento se parece al de Insertion Sort en el peor caso.
+
+2. **Incrementos de Hibbard (\( h_k = 2^k - 1 \))**:
+   - Peor caso: \( O(N^{3/2}) \)
+
+3. **Incrementos de Sedgewick (\( h_k = 4^k + 3 \cdot 2^{k-1} + 1 \))**:
+   - Peor caso: \( O(N^{4/3}) \)
+
+4. **Incrementos óptimos (Pratt o Tokuda)**:
+   - Peor caso: \( O(N \log^2 N) \), que es el mejor tiempo conocido para Shellsort.
+
+---
+
+### **Conclusión**
+El tiempo de ejecución en notación Big-O depende de la secuencia de incrementos:
+- **Incrementos de Shell**: \( O(N^2) \)
+- **Incrementos más avanzados (como Sedgewick o Pratt)**: Entre \( O(N^{3/2}) \) y \( O(N \log^2 N) \)
+
+Por lo tanto, para evaluar el tiempo de ejecución de tu pseudocódigo, se debe especificar la secuencia `Inc[k]`. Si se asume una secuencia básica como la de Shell (\( N/2, N/4, \dots, 1 \)), el algoritmo tiene un tiempo de ejecución \( O(N^2) \) en el peor caso.

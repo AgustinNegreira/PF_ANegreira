@@ -1,0 +1,31 @@
+Lenguaje Natural:
+
+El algoritmo, inicia un recorrido en profundidad DFS desde cada vertice del grafo, si durante el recorrido se llega a un vertice que ya fue visitado en el mismo recorrido, se detecta un ciclo.
+En caso de detectar un ciclo, el camino actual se registra y se devuelve como resultado.
+
+
+Pseudocodigo:
+
+FUNCION tieneCiclo(grafo):
+    PARA cada vertice en grafo:
+        SI vertice no ha sido visitado:
+            SI DFS(vertice, camino vacío):
+                IMPRIMIR "Ciclo encontrado"
+                RETORNAR VERDADERO
+    RETORNAR FALSO
+
+FUNCION DFS(vertice, camino):
+    MARCAR vertice como visitado temporalmente
+    AÑADIR vertice al camino
+    
+    PARA cada adyacente en vertice.adyacentes:
+        SI adyacente ya está en el camino:
+            IMPRIMIR "Ciclo detectado con camino: ", camino
+            RETORNAR VERDADERO
+        SI adyacente no ha sido visitado:
+            SI DFS(adyacente, camino):
+                RETORNAR VERDADERO
+
+    ELIMINAR vertice del camino
+    MARCAR vertice como visitado permanentemente
+    RETORNAR FALSO

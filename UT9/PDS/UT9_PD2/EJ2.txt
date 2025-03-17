@@ -1,0 +1,31 @@
+TA1_EJ3.2 Y .3
+
+
+(1) Desde i = 1 hasta N-1 hacer
+(2) 	Desde j = N hasta i +1
+	hacer
+(3) 	Si V[j].clave < V[j-1].clave
+	intercambia (V[j], V[j-1])
+	Fin si
+(4) 	Fin desde
+    Fin desde
+
+
+
+Intercambia lleva un tiempo
+constante O(1), igual que la
+prueba “Si”.
+• Los pasos 2 a 4 llevan un
+tiempo proporcional a (N-i).
+• Estos se ejecutan desde i = 1
+hasta N-1.
+• Por lo tanto, la cantidad de
+comparaciones que se
+realizan serán de orden:
+O(N2) siempre, ya que el
+algoritmo no detecta
+diferencia entre casos.
+
+
+
+Una forma de reducir el tiempo de ejecución del Bubble Sort es implementar una optimización que detecte si el arreglo ya está ordenado durante una pasada. Esto se logra utilizando una bandera (flag) que indica si se realizaron intercambios en una iteración. Si no se realizan intercambios, significa que el arreglo ya está ordenado, y el algoritmo puede detenerse anticipadamente.
